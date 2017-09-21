@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="smart_ui_enable_pull_down" format="boolean" />
+    <attr name="smart_ui_enable_pull_up" format="boolean" />
+    <attr name="smart_ui_background" format="color|reference" />
+
+    <declare-styleable name="SmartPullableLayout">
+        <attr name="smart_ui_enable_pull_down" />
+        <attr name="smart_ui_enable_pull_up" />
+        <attr name="smart_ui_background" />
+    </declare-styleable>
+
+    <declare-styleable name="StickyScrollView">
+        <!--百分比-->
+        <!-- float value for indicate the moment of switch panel-->
+        <attr name="percent" format="float"/>
+        <!-- 动画保持的时间-->
+        <attr name="duration" format="integer"/>
+
+        <!-- default panel to show after init-->
+        <attr name="default_panel" format="enum">
+            <enum name="front" value="0"/>
+            <enum name="behind" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CountDownView">
+        <!--格式-->
+        <attr name="format" format="string"/>
+        <!--定时器间隔-->
+        <attr name="interval" format="integer"/>
+    </declare-styleable>
+
+</resources>

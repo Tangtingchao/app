@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ef3135</color>
+    <color name="colorPrimaryDark">#ee3036</color>
+    <color name="colorAccent">#b43336</color>
+    <color name="color_bar_background">#f13038</color>
+    <color name="bg_app">#F1F1F1</color>
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+
+    <color name="smart_ui_pullable_layout_text_color">#707070</color>
+    <color name="smart_ui_loading_layout_text_color">#515151</color>
+
+</resources>
